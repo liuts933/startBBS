@@ -20,6 +20,14 @@
  <span class="red"><?php echo $this->config->item('sys_version');?></span>
                     </div>
                 </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">官方动态</h3>
+                    </div>
+                    <div class="panel-body">
+						<!--iframe src="http://bbs.startbbs.com/home/latest" width="100%" height="100%" frameborder="0" scrolling="no">Startbbs使用了框架技术，但是您的浏览器不支持框架，请升级您的浏览器以便正常访问StartBBS。</iframe-->
+                    </div>
+                </div>
                 <div class="row">
 	                <div class="col-md-6">
 		                <div class="panel panel-default">
@@ -48,14 +56,6 @@
 		                    </div>
 		                </div>
 	                </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">官方动态</h3>
-                    </div>
-                    <div class="panel-body">
-						<iframe src="http://bbs.startbbs.com/home/latest" width="100%" height="100%" frameborder="0" scrolling="no">Startbbs使用了框架技术，但是您的浏览器不支持框架，请升级您的浏览器以便正常访问StartBBS。</iframe>
-                    </div>
                 </div>
             </div><!-- /.col-md-8 -->
 
